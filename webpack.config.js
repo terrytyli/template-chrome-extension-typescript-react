@@ -40,6 +40,11 @@ module.exports = {
           to: path.resolve(__dirname, 'dist'),
           flatten: true,
         },
+        {
+          from: path.resolve(__dirname, 'src', '*.png'),
+          to: path.resolve(__dirname, 'dist'),
+          flatten: true,
+        },
       ],
     }),
   ],
